@@ -1,0 +1,77 @@
+.tmln{
+    margin-bottom: 10px;
+}
+.feed{
+    display: flex;
+    background-color: white;
+    border: 1px solid #e0dfdc;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.feed__prfSection{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.prfSection__prof{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.prfImg img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.prfName{
+    font-weight: 600;
+    font-size: 14px;
+    color: #191919;
+}
+.follow__btn{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0a66c2;
+}
+.feed__content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    background-color: #f9fafb;
+}
+.describtion{
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #696969;
+}
+.postImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.activity__cnt{
+    display: flex;
+    padding: 10px 10px;
+}
+.activity__line{
+    padding: 0 10px;
+}
+.cnt__part{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 500;
+}
+.cnt__partIcon{
+    font-size: 20px!important;
+    margin-right: 2px;
+}
