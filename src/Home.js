@@ -101,7 +101,7 @@ function Home() {
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic}
 
-                            ></TimelineFeed> */}
+                            ></TimelineFeed>
                             <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
@@ -109,7 +109,7 @@ function Home() {
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic2}
 
-                            />
+                            /> */}
                             <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
