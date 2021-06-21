@@ -94,14 +94,14 @@ function Home() {
                             </div>
                         </div>
                         <div className="cnt__tml__feed">
-                            <TimelineFeed
+                            {/* <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
                                 name="David Mcguell"
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic}
 
-                            ></TimelineFeed>
+                            ></TimelineFeed> */}
                             <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
