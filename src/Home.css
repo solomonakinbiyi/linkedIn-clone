@@ -247,3 +247,44 @@
     top: 75px;
     height: 250px;
 }
+
+@media only screen and (max-width: 1037px){
+    .content{
+        
+    }
+    .content__profile{
+        width: 30%;
+    }
+    .content__timeline{
+        width: 64%;
+    }
+    .content__addToFeed{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 608px){
+    .content{
+        flex-direction: column;
+    }
+    .content__profile{
+        display: none;
+    }
+    .content__timeline{
+        width: 100%;
+    }
+    .cnt__tml__postBottom{
+        /* font-size: 12px; */
+    }
+    .postObjects div{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 663px){
+    
+}
+
+@media only screen and (max-width: 469px){
+    
+}

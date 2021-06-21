@@ -18,6 +18,7 @@ function Home() {
         <div className="home">
             <div className="container">
                 <div className="content">
+
                     <div className="content__profile">
                         <div className="cnt__prf__top">
                             <div className="cnt__prf__topOne">
@@ -68,6 +69,7 @@ function Home() {
                         </div>
                         <div className="cnt__prf__bottom"></div>
                     </div>
+
                     <div className="content__timeline">
                         <div className="cnt__tml__post">
                             <div className="cnt__tml__postTop">
@@ -94,7 +96,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="cnt__tml__feed">
-                            {/* <TimelineFeed
+                            <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
                                 name="David Mcguell"
@@ -117,7 +119,7 @@ function Home() {
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic3}
 
-                            /> */}
+                            />
                             <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
@@ -128,6 +130,7 @@ function Home() {
                             />
                         </div>
                     </div>
+
                     <div className="content__addToFeed">
                         <div className="cnt__adtfd__top"></div>
                         <div className="cnt__adtfd__middle"></div>

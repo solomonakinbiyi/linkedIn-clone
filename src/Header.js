@@ -55,19 +55,19 @@ function Header() {
                                 <div>Notifications</div>
                             </div>
                         </Link>
-                        <Link to="/" className="header__link header__link__me">
+                        <Link to="/" className="header__link header__link__me lastThree">
                             <div className="header__navItems__item">
                                 <AccountCircleIcon></AccountCircleIcon>
                                 <div>Me</div>
                             </div>
                         </Link>
-                        <Link to="/" className="header__link">
+                        <Link to="/" className="header__link lastThree">
                             <div className="header__navItems__item">
                                 <BorderClearIcon></BorderClearIcon>
                                 <div>Work</div>
                             </div>
                         </Link>
-                        <Link to="/" className="header__link">
+                        <Link to="/" className="header__link lastThree">
                             <div className="header__navItems__item premium">
                                 <ControlPointDuplicateIcon></ControlPointDuplicateIcon>
                                 <div>Premium</div>

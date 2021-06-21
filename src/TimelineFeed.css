@@ -59,6 +59,7 @@
 .activity__cnt{
     display: flex;
     padding: 10px 10px;
+    justify-content: space-between;
 }
 .activity__line{
     padding: 0 10px;
@@ -74,4 +75,19 @@
 .cnt__partIcon{
     font-size: 20px!important;
     margin-right: 2px;
+}
+@media only screen and (max-width: 403px){
+    .cnt__part div{
+        display: none;
+    }
+    .header{
+        width: 100%;
+    }
+    .header__container{
+        /* width: 100%; */
+    }
+    .header__logoSection__searchbox{
+        width: 70%;
+        /* margin-right: 2px; */
+    }
 }
