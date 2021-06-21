@@ -94,7 +94,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="cnt__tml__feed">
-                            <TimelineFeed
+                            {/* <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
                                 name="David Mcguell"
@@ -117,7 +117,7 @@ function Home() {
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic3}
 
-                            />
+                            /> */}
                             <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
