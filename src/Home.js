@@ -95,14 +95,6 @@ function Home() {
                         </div>
                         <div className="cnt__tml__feed">
                             
-                            <TimelineFeed
-                                id="1920292h9"
-                                profilePic={profPic}
-                                name="David Mcguell"
-                                postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
-                                postImage={postPic4}
-
-                            />
                         </div>
                     </div>
                     <div className="content__addToFeed">
