@@ -10,6 +10,10 @@
     width: 90%;
     margin: auto;
 }
+.container__top{
+    width: 90%;
+    margin: auto;
+}
 .content{
     margin-top: 50px;
     display: flex;
@@ -286,5 +290,20 @@
 }
 
 @media only screen and (max-width: 469px){
-    
+    .container__top{
+        width: 100%;
+    }
+    .cnt__tml__post{
+        width: 100%;
+        background-color: white;
+        border: 0 solid #e0dfdc;
+        border-radius: 0;
+        padding: 20px 20px;
+        font-size: 14px;
+    }
+    .content{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
 }

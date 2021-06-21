@@ -101,4 +101,8 @@
     .header__navItems__item div{
         display: none;
     }
+    .header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

@@ -16,7 +16,7 @@ import BookmarkIcon from '@material-ui/icons/Bookmark';
 function Home() {
     return (
         <div className="home">
-            <div className="container">
+            <div className="container__top">
                 <div className="content">
 
                     <div className="content__profile">

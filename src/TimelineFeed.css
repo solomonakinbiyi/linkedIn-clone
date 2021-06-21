@@ -76,6 +76,15 @@
     font-size: 20px!important;
     margin-right: 2px;
 }
+@media only screen and (max-width: 469px){
+    .feed{
+        display: flex;
+        background-color: white;
+        border: 0 solid #e0dfdc;
+        border-radius: 0;
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 403px){
     .cnt__part div{
         display: none;
