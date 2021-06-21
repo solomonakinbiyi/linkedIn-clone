@@ -94,30 +94,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="cnt__tml__feed">
-                            {/* <TimelineFeed
-                                id="1920292h9"
-                                profilePic={profPic}
-                                name="David Mcguell"
-                                postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
-                                postImage={postPic}
-
-                            ></TimelineFeed>
-                            <TimelineFeed
-                                id="1920292h9"
-                                profilePic={profPic}
-                                name="David Mcguell"
-                                postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
-                                postImage={postPic2}
-
-                            /> */}
-                            <TimelineFeed
-                                id="1920292h9"
-                                profilePic={profPic}
-                                name="David Mcguell"
-                                postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
-                                postImage={postPic3}
-
-                            />
+                            
                             <TimelineFeed
                                 id="1920292h9"
                                 profilePic={profPic}
