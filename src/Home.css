@@ -306,4 +306,7 @@
         display: flex;
         justify-content: space-between;
     }
+    .tmln:last-child{
+        margin-bottom: 55px;
+    }
 }

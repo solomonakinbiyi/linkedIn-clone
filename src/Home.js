@@ -102,7 +102,7 @@ function Home() {
                                 name="David Mcguell"
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic}
-
+                                className="tmlncntn"
                             ></TimelineFeed>
                             <TimelineFeed
                                 id="1920292h9"
@@ -110,7 +110,7 @@ function Home() {
                                 name="David Mcguell"
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic2}
-
+                                className="tmlncntn"
                             />
                             <TimelineFeed
                                 id="1920292h9"
@@ -118,7 +118,7 @@ function Home() {
                                 name="David Mcguell"
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic3}
-
+                                className="tmlncntn"
                             />
                             <TimelineFeed
                                 id="1920292h9"
@@ -126,7 +126,7 @@ function Home() {
                                 name="David Mcguell"
                                 postDescribtion="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
                                 postImage={postPic4}
-
+                                className="tmlncntn"
                             />
                         </div>
                     </div>
