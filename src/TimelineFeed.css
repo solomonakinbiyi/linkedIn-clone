@@ -20,17 +20,37 @@
     align-items: center;
 }
 .prfImg img{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     margin-right: 10px;
     object-fit: cover;
     object-position: center;
 }
 .prfName{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     color: #191919;
+    display: flex;
+    flex-direction: column;
+}
+.flws{
+    font-size: 12px;
+    font-weight: normal;
+    color: #696969;
+}
+.tme{
+    font-size: 12px;
+    font-weight: normal;
+    color: #696969;
+    display: flex;
+    align-items: center;
+}
+.dot{
+    font-size: 5px!important;
+}
+.globe{
+    font-size: 11px!important;
 }
 .follow__btn{
     display: flex;
@@ -43,7 +63,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
     background-color: #f9fafb;
 }
 .describtion{
@@ -56,10 +76,30 @@
     width: 100%;
     object-fit: contain;
 }
+.like__section{
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: #696969;
+}
+.like__sectionIconContainer{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a66c2;
+    border-radius: 100px;
+
+}
+.like__sectionIcon{
+    font-size: 10px!important;
+    color: #eff1f3!important;
+}
 .activity__cnt{
     display: flex;
-    padding: 10px 10px;
-    justify-content: space-between;
+    padding: 12px 10px;
 }
 .activity__line{
     padding: 0 10px;

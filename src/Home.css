@@ -15,7 +15,7 @@
     margin: auto;
 }
 .content{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -26,7 +26,7 @@
     background-color: white;
     border: 1px solid #e0dfdc;
     border-radius: 10px;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 .cnt__prf__topOne{
@@ -119,7 +119,7 @@
     font-size: 18px!important;
 }
 .cnt__prf__topOneImg{
-    height: 35%;
+    height: 28%;
 }
 .cnt__prf__topOneImg img{
     width: 100%;
@@ -129,14 +129,16 @@
     border-top-right-radius: 10px;
 }
 .cnt__prf__topOneName{
-    height: 65%;
+    height: 72%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    flex-direction: column;
     font-size: 14px;
     font-weight: 500;
     color: #191919;
     border-bottom: 1px solid #e0dfdc;
+    padding-bottom: 15px;
 }
 .cnt__prf__topOne__ImgLogoCnt{
     position: absolute;
@@ -161,7 +163,53 @@
     position: sticky;
     margin-top: 10px;
     top: 75px;
-    height: 500px;
+}
+.cnt__prf__bottomContainer{
+    padding: 10px 10px;
+}
+.rcnt{
+    font-size: 12px;
+    color: #696969;
+}
+.grps{
+    font-size: 12px;
+    color: #0a66c2;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.evnts{
+    font-size: 12px;
+    color: #0a66c2;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.addIcon{
+    color: #191919!important;
+}
+.flwdhash{
+    font-size: 12px;
+    color: #0a66c2;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.tags{
+    margin-top: 7px;
+    color: #696969;
+    font-size: 12px;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    color: #696969;
+    font-size: 12px;
+}
+.tag__icon{
+    font-size: 20px;
+    font-weight: 700;
+    color: #191919;
 }
 .content__timeline{
     width: 50%;
@@ -171,8 +219,8 @@
     align-items: center;
 }
 .cnt__tml__postTop img{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     margin-right: 10px;
     object-fit: cover;
@@ -233,14 +281,13 @@
     background-color: white;
     border: 1px solid #e0dfdc;
     border-radius: 10px;
-    height: 380px;
 }
 .cnt__adtfd__middle{
     background-color: white;
     border: 1px solid #e0dfdc;
     border-radius: 10px;
     margin-top: 10px;
-    height: 300px;
+    padding: 10px 10px;
 }
 .cnt__adtfd__bottom{
     background-color: white;
@@ -249,9 +296,101 @@
     position: sticky;
     margin-top: 10px;
     top: 75px;
-    height: 250px;
+    /* padding: 0px 6px; */
+    height: 232px;
 }
+.cnt__adtfd__top{
+    padding: 10px 10px;
+    padding-bottom: 20px;
+}
+.cnt__adtfd__topOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cnt__adtfd__topOne span{
+    color: #191919;
+    font-size: 13px;
+    font-weight: 500;
+}
+.cnt__adtfd__topOneIcon{
+    font-size: 14px!important;
+    color: #191919;
+}
+.cnt__adtfd__topDivider{
+    display: flex;
+    margin-bottom: 10px;
+}
+.cnt__adtfd__topDividerLeft img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    object-fit: cover;
 
+
+}
+.cnt__adtfd__topDividerRight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.companyName{
+    font-size: 12px;
+    font-weight: 500;
+    color: #191919;
+    margin-bottom: 1px;
+}
+.companyAbout{
+    font-size: 11px;
+    color: #696969;
+    margin-bottom: 5px;
+}
+.cnt__adtfd__topDividerLink{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    font-size: 14px!important;
+    padding: 3px 0;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 1px solid #696969;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #696969;
+    
+}
+.cnt__adtfd__topThree div{
+    display: flex;
+    align-items: center;
+    font-size: 13px!important;
+    color: #696969;
+    padding-top: 5px;
+
+}
+.cnt__adtfd__topThreeIcon{
+    font-size: 20px!important;
+}
+.cnt__adtfd__bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.cnt__adtfd__middleTwoCnt{
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.cnt__adtfd__middleTwoCntSecond{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+.cnt__adtfd__middleTwoCntSecondTwo{
+    font-size: 11px;
+    font-weight: normal;
+}
 @media only screen and (max-width: 1037px){
     .content{
         
