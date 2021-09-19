@@ -1,3 +1,24 @@
 *{
     margin: 0;
 }
+
+/* For dark mode */
+ :root{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+img{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+
+/* Ignore */
+/* p, span, h1, h2, h3, h4, h5, h6{ */
+    /* filter: invert(1) hue-rotate(180deg); */
+/* } */
+
+
+/* For dark mode */
+svg{
+    filter: invert(1) hue-rotate(180deg);
+}
