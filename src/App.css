@@ -3,13 +3,13 @@
 }
 
 /* For dark mode */
- :root{
+ /* :root{
     filter: invert(1) hue-rotate(180deg);
 }
 
 img{
     filter: invert(1) hue-rotate(180deg);
-}
+} */
 
 
 /* Ignore */
@@ -19,6 +19,6 @@ img{
 
 
 /* For dark mode */
-svg{
+/* svg{
     filter: invert(1) hue-rotate(180deg);
-}
+} */
